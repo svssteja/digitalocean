@@ -2,7 +2,7 @@ const express=require('express');
 const app=new express();
 
 app.get('/',(req,res)=>{
-    res.send("Welcome to the digital ocean")
+    res.send("Welcome to the digital ocean app")
 });
 
 app.listen(5555,()=>{
